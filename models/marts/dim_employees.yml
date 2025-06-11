@@ -1,0 +1,10 @@
+models:
+  - name: dim_employees
+    description: >
+      This is the dimension table for employees, 
+    columns:
+      - name: employee_pk
+        description: Unique ID for each employee.
+        tests:
+          - unique
+          - not_null
