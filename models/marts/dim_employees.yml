@@ -8,3 +8,7 @@ models:
         tests:
           - unique
           - not_null
+
+      - name: employee_pk
+        description: Unique ID for each employee.
+      
