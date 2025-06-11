@@ -2,7 +2,6 @@ with
 source as (
     select * from {{ source('erp', 'category') }}
 ),
-
 renamed as (
     select
         cast (id as int) as category_pk
@@ -10,5 +9,4 @@ renamed as (
         ,cast (description as varchar) as category_description
     from source
 )
-select * 
-from renamed
+select * from renamed
