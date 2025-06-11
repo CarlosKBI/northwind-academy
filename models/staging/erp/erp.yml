@@ -4,6 +4,6 @@ sources:
     database: fea25_05
     schema: raw_northwind
     tables:
-      - name: category
+      - name: categories
       - name: products
       - name: suppliers
